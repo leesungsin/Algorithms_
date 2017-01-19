@@ -1,0 +1,297 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Leye",
+				"LeyeYcenter"
+			],
+			[
+				"resha",
+				"reshapedImage"
+			],
+			[
+				"image",
+				"imagefilePath"
+			],
+			[
+				"if",
+				"ifmain\tif __name__ == '__main__'"
+			],
+			[
+				"IM",
+				"imread"
+			],
+			[
+				"file",
+				"filepath"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 107.0,
+		"last_filter": "open re",
+		"selected_items":
+		[
+			[
+				"open re",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"package control install",
+				"Package Control: Install Package"
+			],
+			[
+				"openRe",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"package install",
+				"Package Control: Install Package"
+			],
+			[
+				"sidebar",
+				"View: Toggle Side Bar"
+			]
+		],
+		"width": 448.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/leesungsin/Dropbox/Documents/Sublime/Algorithms"
+	],
+	"file_history":
+	[
+		"/Users/leesungsin/Library/Application Support/Sublime Text 3/Packages/ConvertToUTF8/Default (OSX).sublime-keymap",
+		"/Users/leesungsin/Downloads/할일/submission(from ooo 2 IEEE)/bare_jrnl 복사본.tex",
+		"/Users/leesungsin/Documents/workspace/face-frontalization-master/demo.py",
+		"/Users/leesungsin/Downloads/IEEEtran2/README",
+		"/Volumes/C/workspace/C,C++/SamsungFaceRecognition/SamsungFaceRecognition(MFC)/SamsungFaceRecognition(MFC)/lib/dmcFaceEngine.lib",
+		"/Users/leesungsin/anaconda/lib/python3.5/runpy.py",
+		"/Users/leesungsin/Documents/workspace/deepgaze/examples/ex_cnn_headp_pose_estimation_images/ex_cnn_head_pose_estimation_images_pitch_yaw.py",
+		"/Users/leesungsin/Downloads/PAM_frontal_AlexNet/PAM_frontal_deploy.prototxt",
+		"/Users/leesungsin/Downloads/PAM_out_0_AlexNet/PAM_out_0_deploy.prototx",
+		"/Users/leesungsin/Documents/workspace/deepgaze/deepgaze/cnn_head_pose_estimator.py",
+		"/Users/leesungsin/Documents/workspace/deepgaze/deepgaze/head_pose_estimation.py",
+		"/Users/leesungsin/Documents/workspace/face-frontalization-master/facial_feature_detector.py",
+		"/Users/leesungsin/Documents/workspace/deepgaze/examples/ex_cnn_headp_pose_estimation_images/ex_cnn_head_pose_estimation_images.py",
+		"/Users/leesungsin/Desktop/mnist.py",
+		"/Users/leesungsin/Documents/workspace/face-frontalization-master/dlib_models/shape_predictor_68_face_landmarks.dat",
+		"/Users/leesungsin/Documents/workspace/face-frontalization-master/frontalization_models/model3Ddlib.mat",
+		"/Users/leesungsin/Documents/workspace/face-landmark-localization-master/README.md",
+		"/Users/leesungsin/Downloads/PAM_profile_AlexNet/PAM_profile_deploy.prototxt",
+		"/Users/leesungsin/Desktop/CVPR_paper.py",
+		"/Users/leesungsin/Downloads/PAM_profile_AlexNet/snap__iter_100000.caffemodel",
+		"/Users/leesungsin/Downloads/PAM_profile_AlexNet/webface_profile.mean",
+		"/Users/leesungsin/Documents/workspace/deepgaze/etc/tensorflow/head_pose/cnn_cccdd_30k",
+		"/Users/leesungsin/Documents/workspace/deepgaze/etc/tensorflow/head_pose/yaw/cnn_cccdd_30k.tf",
+		"/Users/leesungsin/Documents/workspace/deeppose-master/README.md",
+		"/Users/leesungsin/caffe/Makefile.config",
+		"/Users/leesungsin/Documents/workspace/TensorFlow/util.py",
+		"/Users/leesungsin/Desktop/c.cpp",
+		"/Users/leesungsin/Documents/workspace/face-landmark-localization-master/landmarkPredict.py",
+		"/usr/local/Homebrew/Library/Taps/homebrew/homebrew-science/opencv.rb",
+		"/Users/leesungsin/caffe/bashrc",
+		"/Users/leesungsin/Downloads/face-landmark-localization-master/testList.txt",
+		"/Users/leesungsin/caffe/src/caffe/data_transformer.cpp",
+		"/Users/leesungsin/Desktop/View_002.txt",
+		"/Users/leesungsin/Downloads/Data_Code/KOSPI.m",
+		"/Users/leesungsin/Documents/workspace/face_specific_augm-master/README.md",
+		"/Users/leesungsin/Desktop/calib161220_View001_8.txt",
+		"/Users/leesungsin/Desktop/image_names.csv",
+		"/Users/leesungsin/Desktop/names.csv",
+		"/Users/leesungsin/Desktop/names.txt",
+		"/Users/leesungsin/Desktop/32131788/matchDigits.py",
+		"/Users/leesungsin/Desktop/32131788_서천아/matchDigits.py",
+		"/Users/leesungsin/Dropbox/Dankook_GradSchool/2016.9(1th)/PatternRecognition(최상일교수님)/텀프로젝트/32131820 한민정/Matlab OpenSource/Demo/FingerPrint/FP.p",
+		"/Users/leesungsin/Documents/workspace/face_specific_augm-master/demo.py",
+		"/Users/leesungsin/Documents/workspace/face_specific_augm-master/input/input.list",
+		"/Users/leesungsin/Documents/workspace/face-frontalization-master/frontalize.py",
+		"/Users/leesungsin/Downloads/face_specific_augm-master/README.md",
+		"/Users/leesungsin/Documents/workspace/face_specific_augm-master/input/input_1.pts",
+		"/Users/leesungsin/Desktop/average_Image.m"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"matchDigits.py",
+			"C:/patternRecog/"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"holder",
+			"placeholder",
+			"op",
+			"CnnHeadPoseEstimator",
+			"tf_yaw_input_vector",
+			"landmark",
+			"head_pose_estimation",
+			"_return_landmarks",
+			"predictor",
+			"_return_landmarks",
+			"yaw",
+			"model",
+			"yaw",
+			"dlib",
+			"get_landmarks",
+			"cnn_yaw_output",
+			":\n",
+			"ㅁㅍㄷㄱㅁㅎ",
+			"ㅁㅍㄷㄱㅁㅎㄷ",
+			"BLAS",
+			"caffe",
+			"predictImage",
+			"recoverPart",
+			"recover_coordinate",
+			"globals",
+			"system_height",
+			"caffe",
+			"retifyBBoxSize",
+			"retiBBox",
+			"recover_coordinate",
+			"..",
+			"C:/patternRecog/",
+			"pts",
+			"%1"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"/Users/leesungsin/Desktop/"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "Algorithms.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 218.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
