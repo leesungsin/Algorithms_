@@ -4,6 +4,7 @@
 #include <algorithm>
 
 
+//?
 int main(void){
 
 	int peopleNumber=0; // 사람수 
