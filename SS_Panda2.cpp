@@ -60,6 +60,7 @@ public:
 	// 맴버함수 선언
 	void set_nForestMap();   // n*n 대나무숲 만들기
 	void get_nForestMap();   // n*n 대나무숲이 잘 만들어졌는지 출력 , 단순 확인용
+	void get_lLiveDaysMap();
 	int move(int row, int col); 			 		  // 대나무 숲에서 이동
 	int max(int NR_lLiveDaysMapValue, int maxValue); // 가장 오래 살 수 있는 날을 찾아서 NR_oMaxLiveDays에 저장.
 	int get_oMaxLiveDays(); // 가장 오래 살 수 있는 날을 리턴해주는 getter 
@@ -85,19 +86,28 @@ void Map::set_nForestMap(){
 
 void Map::get_nForestMap(){
 
-	std::cout<<"======================="<<std::endl;
+	//std::cout<<"======================="<<std::endl;
 	for(int NR_voutIndex=0; NR_voutIndex < NR_iSize; NR_voutIndex ++){
 		for(int NR_einIndex=0; NR_einIndex < NR_iSize; NR_einIndex ++){
-			std::cout<<NR_nForestMap[NR_voutIndex][NR_einIndex]<<" ";
+			//std::cout<<NR_nForestMap[NR_voutIndex][NR_einIndex]<<" ";
 		}// 안쪽 포문 {} 종료
-		std::cout<<std::endl;
+		//std::cout<<std::endl;
+	}// 바깥쪽 포문{} 종료
+}
+
+void Map::get_lLiveDaysMap(){
+	//std::cout<<"======================="<<std::endl;
+	for(int NR_voutIndex=0; NR_voutIndex < NR_iSize; NR_voutIndex ++){
+		for(int NR_einIndex=0; NR_einIndex < NR_iSize; NR_einIndex ++){
+			//std::cout<<NR_lLiveDaysMap[NR_voutIndex][NR_einIndex]<<" ";
+		}// 안쪽 포문 {} 종료
+		//std::cout<<std::endl;
 	}// 바깥쪽 포문{} 종료
 }
 
 int Map::move(int row, int col){
 
-	//std::cout<<"row : " << row << std::endl;
-	//std::cout<<"col : "<< col << std::endl;
+	//std::cout<<"row , col " << row <<" " << col <<std::endl;
 	if(0 == NR_lLiveDaysMap[row][col]){
 		NR_lLiveDaysMap[row][col] = 1; // 처음위치에서는 살 수 있는 하루를 인정
 
@@ -112,13 +122,13 @@ int Map::move(int row, int col){
 			if(NR_newRow < 0 || NR_newCol < 0 || NR_newRow >= NR_iSize || NR_newCol >= NR_iSize)
 				continue;
 			// 문제 조건 , 처음위치 < 나중위치 일때만 움직임
-			if(NR_nForestMap[row][col] > NR_nForestMap[NR_newRow][NR_newCol])
+			if(NR_nForestMap[row][col] >= NR_nForestMap[NR_newRow][NR_newCol])
 				continue;
 
 			//위의 두조건을 만족시킬경우 움직임!!
 			NR_lLiveDaysMap[row][col] = max(NR_lLiveDaysMap[row][col], move(NR_newRow, NR_newCol)+1);
 
-
+			//std::cout<<std::endl;
 		}// end for int NR_index
 	}// end if
 
@@ -167,6 +177,7 @@ int main(void){
 	}// 바깥쪽 포문{} 종료
 
 	map.set_oMaxLiveDays(maxLiveDays);
+	map.get_lLiveDaysMap();
 
 	//최대로 살 수 있는 날 출력
 	std::cout<<map.get_oMaxLiveDays()<<std::endl;
